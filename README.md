@@ -14,8 +14,10 @@
 本项目主要用于记录框架及中间件源码的阅读经验、个人理解及解析，希望能够使阅读源码变成一件简单有趣，且有价值的事情，抽空更新中... (如果本项目对您有帮助，请 watch、star、fork 素质三连一波，鼓励一下作者，谢谢）
 
 - Netlify: https://schunter.netlify.app
-- Gitee Pages: https://doocs.gitee.io/source-code-hunter
+- ~~Gitee Pages: https://doocs.gitee.io/source-code-hunter~~
 - GitHub Pages: https://doocs.github.io/source-code-hunter
+
+注：😶 Gitee Pages 站点遭 Gitee 官方误判为“包含违禁违规内容”，惨遭下线。
 
 ## Spring 系列
 
@@ -112,6 +114,10 @@
 - [SpringBoot 日志系统](/docs/SpringBoot/SpringBoot-LogSystem.md)
 - [SpringBoot ConditionalOnBean](/docs/SpringBoot/SpringBoot-ConditionalOnBean.md)
 
+### SpringSecurity
+- [SpringSecurity请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
+- [SpringSecurity自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
+- 
 ## MyBatis
 
 ### 基础支持层
@@ -358,6 +364,6 @@ GitHub 技术社区 [Doocs](https://github.com/doocs)，致力于打造一个内
   </tr>
 </table>
 
-关注「**Doocs 开源社区**」公众号，回复 **PDF**，即可获取 [doocs/advanced-java](https://github.com/doocs/advanced-java) 项目离线 PDF 文档（283 页精华），学习更加方便！
+关注「**Doocs 开源社区**」公众号，回复 **PDF**，即可获取 [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) 项目离线 PDF 文档（283 页精华），学习更加方便！
 
 ![](./images/pdf.png)
