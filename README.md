@@ -13,11 +13,8 @@
 
 本项目主要用于记录框架及中间件源码的阅读经验、个人理解及解析，希望能够使阅读源码变成一件简单有趣，且有价值的事情，抽空更新中... (如果本项目对您有帮助，请 watch、star、fork 素质三连一波，鼓励一下作者，谢谢）
 
-- Netlify: https://schunter.netlify.app
-- ~~Gitee Pages: https://doocs.gitee.io/source-code-hunter~~
+- Gitee Pages: https://doocs.gitee.io/source-code-hunter
 - GitHub Pages: https://doocs.github.io/source-code-hunter
-
-注：😶 Gitee Pages 站点遭 Gitee 官方误判为“包含违禁违规内容”，惨遭下线。
 
 ## Spring 系列
 
@@ -27,8 +24,10 @@
 - [将 bean 解析封装成 BeanDefinition](/docs/Spring/IoC/2、将bean解析封装成BeanDefinition.md)
 - [将 BeanDefinition 注册进 IoC 容器](/docs/Spring/IoC/3、将BeanDefinition注册进IoC容器.md)
 - [依赖注入(DI)](</docs/Spring/IoC/4、依赖注入(DI).md>)
+- [BeanFactoryPostProcessor](/docs/Spring/IoC/BeanFactoryPostProcessor.md)
 - [BeanPostProcessor](/docs/Spring/IoC/BeanPostProcessor.md)
 - [Spring BeanFactory 源码解析](/docs/Spring/clazz/Spring-beanFactory.md)
+- [循环依赖](/docs/Spring/IoC/循环依赖.md)
 
 ### AOP
 
@@ -59,6 +58,10 @@
 ### Spring 源码故事（瞎编版）
 
 - [面筋哥 IoC 容器的一天(上)](</docs/Spring/Spring源码故事（瞎编版）/面筋哥IoC容器的一天(上).md>)
+
+### Spring 整体脉络
+
+- [16 张图解锁 Spring 的整体脉络](/docs/Spring/Spring整体脉络/16张图解锁Spring的整体脉络.md)
 
 ### Spring 类解析
 
@@ -115,9 +118,10 @@
 - [SpringBoot ConditionalOnBean](/docs/SpringBoot/SpringBoot-ConditionalOnBean.md)
 
 ### SpringSecurity
-- [SpringSecurity请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
-- [SpringSecurity自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
-- 
+
+- [SpringSecurity 请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
+- [SpringSecurity 自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
+
 ## MyBatis
 
 ### 基础支持层
@@ -269,6 +273,21 @@
 - [Sentinel 底层 LongAdder 的计数实现](docs/Sentinel/Sentinel底层LongAdder的计数实现.md)
 - [Sentinel 限流算法的实现](docs/Sentinel/Sentinel限流算法的实现.md)
 
+## RocketMQ
+
+- [RocketMQ NameServer 与 Broker 的通信](docs/rocketmq/rocketmq-nameserver-broker.md)
+- [RocketMQ 生产者启动流程](docs/rocketmq/rocketmq-producer-start.md)
+- [RocketMQ 消息发送流程](docs/rocketmq/rocketmq-send-message.md)
+- [RocketMQ 消息发送存储流程](docs/rocketmq/rocketmq-send-store.md)
+- [RocketMQ MappedFile内存映射文件详解](docs/rocketmq/rocketmq-mappedfile-detail.md)
+- [RocketMQ ConsumeQueue详解](docs/rocketmq/rocketmq-consumequeue.md)
+- [RocketMQ CommitLog详解](docs/rocketmq/rocketmq-commitlog.md)
+- [RocketMQ IndexFile详解](docs/rocketmq/rocketmq-indexfile.md)
+- [RocketMQ 消费者启动流程](docs/rocketmq/rocketmq-consumer-start.md)
+- [RocketMQ 消息拉取流程](docs/rocketmq/rocketmq-pullmessage.md)
+- [RocketMQ Broker 处理拉取消息请求流程](docs/rocketmq/rocketmq-pullmessage-processor.md)
+- [RocketMQ 消息消费流程](docs/rocketmq/rocketmq-consume-message-process.md)
+
 ## 番外篇（JDK 1.8）
 
 ### 基础类库
@@ -318,6 +337,10 @@
 - [Java 并发编程在各主流框架中的应用](docs/LearningExperience/ConcurrentProgramming/Java并发编程在各主流框架中的应用.md)
 
 ---
+
+## Stars 趋势
+
+[![Star History Chart](https://api.star-history.com/svg?repos=doocs/source-code-hunter&type=Date)](https://star-history.com/#doocs/source-code-hunter&Date)
 
 ## Doocs 社区优质项目
 
